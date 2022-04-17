@@ -1,0 +1,68 @@
+.category-item {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid rgb(224, 174, 174);
+  height: 45px;
+  padding-left: 10px;
+
+  .category-item__text-edit-container {
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  button {
+    background: none;
+    border: 1px solid rgb(224, 174, 174);
+    border-radius: 10px;
+    height: 35px;
+    width: 50px;
+    cursor: pointer;
+    align-self: center;
+  }
+
+  .category-item__add-btn,
+  .category-item__delete-btn {
+    margin-right: 10px;
+  }
+
+  .category-item__text {
+    font-size: 1.5rem;
+    margin: 0px 10px 0px 10px;
+    cursor: pointer;
+    color: rgb(70, 128, 146);
+
+    a {
+      text-decoration: none;
+      color: rgb(70, 128, 146);
+    }
+  }
+
+  .category-item__add-img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .category-item__close-list-btn {
+    width: 30px;
+  }
+
+  .category-item__choose-category-btn {
+    width: 120px;
+    height: 48px;
+    border-radius: 0px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  .choose-category-btn-img {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.background-green {
+  background-color: rgb(183, 224, 210);
+}

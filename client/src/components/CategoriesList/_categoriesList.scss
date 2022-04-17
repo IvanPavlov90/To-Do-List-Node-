@@ -1,0 +1,11 @@
+.category-list,
+.subcategory-list {
+  list-style-type: none;
+}
+
+.category-list {
+  margin-left: -40px;
+  margin-top: 30px;
+  overflow: auto;
+  height: 750px;
+}

@@ -1,0 +1,32 @@
+.task-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid rgb(224, 174, 174);
+    height: 80px;
+
+    .task-item__checkbox,
+    .task-item__text,
+    .task-item__edit-btn {
+        align-self: center;
+    }
+
+    .task-item__checkbox {
+        width: 10%;
+    }
+
+    .task-item__text {
+        width: 80%;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .task-item__edit-btn {
+        height: 40px;
+        background: none;
+        border: 1px solid rgb(224, 174, 174);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+}

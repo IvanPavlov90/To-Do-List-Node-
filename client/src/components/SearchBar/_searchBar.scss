@@ -1,0 +1,46 @@
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  position: relative;
+
+  .search-container__search-input,
+  .search-container__checkbox,
+  .search-container__checkbox-label {
+    align-self: center;
+  }
+
+  .search-container__search-input {
+    height: 30px;
+    width: 400px;
+    align-self: center;
+    padding: 10px;
+  }
+
+  .search-container__checkbox-label {
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+
+  .search-container__name {
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-grow: 2;
+  }
+
+  .search-container__username {
+    margin-left: 10px;
+    font-size: 1.4rem;
+  }
+
+  .search-container__logout-btn {
+    width: 100px;
+    margin-left: 10px;
+    a {
+      text-decoration: none;
+      color: #000000;
+    }
+  }
+}

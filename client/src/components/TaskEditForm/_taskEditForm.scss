@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+
+  .form__input,
+  .form__checkbox,
+  .form__textarea,
+  .form__btn-container {
+    margin-bottom: 20px;
+  }
+
+  .form__input {
+    width: 30%;
+    padding-left: 10px;
+  }
+
+  .form__textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 400px;
+    resize: none;
+  }
+
+  .form__btn-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .form__submit-btn {
+    width: 140px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border: 1px solid #b19090;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: #000000  
+    }
+  }
+
+  .form__close-btn {
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #b19090;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    text-align: center; 
+    line-height: 2.4;
+  }
+}
